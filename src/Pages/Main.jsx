@@ -8,7 +8,7 @@ import Contact from "./Contact";
 
 const Main = () => {
   return (
-    <main className="bg-background max-h-screen px-16 py-8 text-text flex-center flex-col gap-8">
+    <main className="bg-background px-16 py-8 text-text flex-center flex-col gap-8">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/quizzes" element={<Quiz />} />

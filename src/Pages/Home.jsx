@@ -1,7 +1,7 @@
 import React from "react";
 import { LuBrain, LuCircleCheck, LuNetwork, LuStar } from "react-icons/lu";
 import { FaBolt, FaLongArrowAltRight } from "react-icons/fa";
-import Logo from "./Logo";
+import Logo from "../components/common/Logo";
 import { Link } from "react-router-dom";
 
 const Home = () => {

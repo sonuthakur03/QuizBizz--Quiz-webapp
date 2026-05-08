@@ -11,7 +11,7 @@ const QuizTF = ({
   answers,
 }) => {
   return (
-    <>
+    <div className="h-full flex-center flex-col p-8 rounded-2xl w-full max-w-5xl">
       <h2 className="font-heading text-3xl font-bold text-text mb-8">
         True / False Quiz
       </h2>
@@ -34,10 +34,13 @@ const QuizTF = ({
               {question.options.map((option, index) => (
                 <div
                   key={index + 1}
-                  className={`bg-surface border border-border py-4 px-16 rounded-xl 
-                       hover:bg-primary hover:text-text hover:-translate-y-1
-                       cursor-pointer transition-all flex-center text-lg font-semibold ${answers[currentQuestionIndex] === option ? "border-[3px] border-primary text-text" : ""} `}
-                  onClick={handleSelectedOption}
+                  className={`py-4 px-8 rounded-xl cursor-pointer transition-all duration-300 flex-center justify-start border ${
+                    answers[currentQuestionIndex] === option
+                      ? "bg-primary text-text border-primary shadow-[0_0_15px_rgba(99,102,241,0.5)] scale-[1.02]"
+                      : "bg-surface border-border hover:bg-primary/20 hover:border-primary hover:-translate-y-1"
+                  }
+                `}
+                  onClick={() => handleSelectedOption(option)}
                 >
                   {option}
                 </div>
@@ -65,7 +68,7 @@ const QuizTF = ({
           <LuChevronRight size={24} />
         </button>
       </div>
-    </>
+    </div>
   );
 };
 
