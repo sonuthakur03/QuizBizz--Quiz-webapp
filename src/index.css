@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+  .nav-item {
+    @apply hover:underline hover:text-primary text-text cursor-pointer transition-all  duration-300 ease-in-out;
+  }
+}
