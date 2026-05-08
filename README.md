@@ -1,5 +1,11 @@
 # Quizify - React Quiz Application
 
+## 📌 Live Demo
+
+🌐 Live Website: [Quizify Live Demo](https://quiz-bizz-quiz-webapp.vercel.app/?utm_source=chatgpt.com)
+
+---
+
 ## 📌 Overview
 
 Quizify is a modern and interactive quiz application built with React and Tailwind CSS.
