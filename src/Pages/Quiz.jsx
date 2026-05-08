@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import QuizForm from "../components/quiz/QuizForm.jsx";
-import QuizMCQ from "../components/quiz/QuizMCQ.jsx";
-import QuizTF from "../components/quiz/QuizTF.jsx";
+import QuizForm from "../components/Quiz/QuizForm.jsx";
+import QuizMCQ from "../components/Quiz/QuizMCQ.jsx";
+import QuizTF from "../components/Quiz/QuizTF.jsx";
 import { useQuiz } from "../hooks/useQuiz";
 
 const Quiz = () => {
