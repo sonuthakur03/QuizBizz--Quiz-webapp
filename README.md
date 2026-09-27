@@ -2,7 +2,7 @@
 
 ## 📌 Live Demo
 
-🌐 Live Website: [Quizify Live Demo](https://quiz-bizz-quiz-webapp.vercel.app/?utm_source=chatgpt.com)
+🌐 Live Website: [Quizify Live Demo](https://quiz-bizz-quiz-webapp.vercel.app/)
 
 ---
 
@@ -186,6 +186,8 @@ Display Score Dashboard
 ---
 
 # 👨‍💻 Author
+
+**Sonu Thakur** ([@sonuthakur03](https://github.com/sonuthakur03))
 
 Built with React, Tailwind CSS, and Open Trivia DB API.
 

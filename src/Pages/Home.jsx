@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
       <div className=" w-[50%]">
-        <img src="/bgHero.png" alt="" />
+        <img src="/bgHero.webp" alt="" />
       </div>
     </section>
   );
